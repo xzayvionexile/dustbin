@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music | dustbin</title>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/BLNhyqg/DALL-E-2024-02-01-17.png">
+    <link href="https://fonts.googleapis.com/css2?family=Alagard&display=swap" rel="stylesheet">
+    <style>
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, #000000, #d4d2c9, #acb2a5, #6b00b3);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            height: 100%;
+            margin: 0;
+        }
+
+        h2 {
+            display: flex;
+            color: #000000;
+            text-shadow: 2px 2px 0px #000000; 
+        }
+
+        .music-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .album {
+            background: #fff;
+            border: 10px ridge brown;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .album:hover {
+            transform: scale(1.05);
+        }
+        .album img {
+            width: 100%;
+            height: auto;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .music-gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+            header, footer {
+                flex-direction: column;
+            }
+        }
+
+        #logo {
+            background-image: url('https://i.ibb.co/BLNhyqg/DALL-E-2024-02-01-17.png'); /* Adjust path as necessary */
+            background-repeat: no-repeat;
+            background-position: center; /* Adjust as necessary to position the icon */
+            background-size: contain; /* Adjust based on the size of your icon */
+            padding: 20px; /* Provides space for the background icon */
+            /* Keep your existing styles */
+            text-align: center; 
+            color: white; 
+            text-shadow: 4px 4px 2px #000000, 8px 8px 0px #ffffff, 12px 6px 0px #000000, 16px 8px 0px #ffffff; 
+            font-size: 120px;
+            }
+    </style>
+<link rel="stylesheet" href="/w0TMG5OXmS0Etwej"/></head>
+<body>
+    <header>
+        <h1 id="logo" style="text-align: center; color: white; text-shadow: 
+        4px 4px 2px #000000, 
+        8px 8px 0px #ffffff, 
+        12px 6px 0px #000000, 
+        16px 8px 0px #ffffff; font-size: 120px;">
+            <a href="index.html" style="text-decoration: none; color: inherit;">dustbin</a>
+        </h1> 
+        <h2 style="color: orange; font-size: 27px;">
+            <a href="contact.html" style="color: orange;">Contact</a> | 
+            <a href="videos.html" style="color: yellow;">Videos</a> | 
+            <a href="images.html" style="color: orange;">Images</a> | 
+            <a href="music.html" style="color: yellow;">Music</a> | 
+            <a href="affiliated.html" style="color: orange;">Affiliated</a> |
+            <a href="about.html" style="color: yellow;">About</a>
+        </h2>  
+    </header>
+
+    <div class="music-gallery">
+        <!-- Repeat for each album or single -->
+        <div class="album">
+            <a href="https://open.spotify.com/album/4oENebyrmdOo78DbiwERZf?si=65tB9LgSR0az0xnbTziYhw" class="plaque">
+            <img src="https://i.ibb.co/RDKS737/album-cover-art.png" alt="Raige OST">
+            <h3>Raige OST</h3>
+        </div>
+    </div>
+    <footer class="text-center p-5">
+        © 2024 dustbin. All rights reserved.
+    </footer>
+</body>
+</html>

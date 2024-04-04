@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Images | dustbin</title>
+<link rel="icon" type="image/x-icon" href="https://i.ibb.co/BLNhyqg/DALL-E-2024-02-01-17.png">
+<link href="https://fonts.googleapis.com/css2?family=Alagard&display=swap" rel="stylesheet">
+<style>
+              .thick-yellow-border {
+                border-color: #fcff00;
+                border-width: 10px;
+                border-style: ridge;
+            }
+
+            .smooth-brown-border {
+                border-color: brown;
+                border-width: 10px;
+                border-style: solid;
+                border-radius: 50%;
+            }
+            main {
+                flex: 1;
+            }
+
+            header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            body {
+                background-image: linear-gradient(to bottom, #000000, #d4d2c9, #acb2a5, #ff0080);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                height: 100%;
+                margin: 0;
+            }
+
+            p {
+                color:#000000;
+                font-family: 'Alagard', serif, sans-serif;
+                background-color: silver; 
+            }
+
+            h1 {
+                text-align: center;
+                color:#000000;
+                font-family: 'Alagard', serif, sans-serif;
+            }
+
+            h2 {
+                display: flex;
+                color: #000000;
+                text-shadow: 2px 2px 0px #000000; 
+            }
+
+            section {
+                max-width: 600px;
+                margin: auto;
+                padding: 20px;
+            }
+
+            input, textarea {
+                width: 100%;
+                padding: 8px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 15px;
+                margin: 10px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            /* For small devices (phones, 600px and down) */
+            @media only screen and (max-width: 600px) {
+                body {
+                    font-size: 14px; /* Smaller font size */
+                }
+
+                .container {
+                    padding: 5px; /* Reduced padding */
+                }
+
+                .main-content, .sidebar {
+                    width: 100%; /* Full width for all main content and sidebar */
+                    padding: 5px; /* Adjust padding */
+                }
+
+                /* Additional mobile-specific adjustments */
+                /* Add your adjustments for small devices here */
+            }
+
+            /* For medium devices (tablets, 768px and up) */
+            @media only screen and (min-width: 768px) {
+                .container {
+                    padding: 10px; /* Increased padding */
+                }
+
+                .main-content {
+                    width: 70%; /* Adjust main content width */
+                }
+
+                .sidebar {
+                    width: 30%; /* Adjust sidebar width */
+                }
+
+                /* Additional tablet-specific adjustments */
+                /* Add your adjustments for medium devices here */
+            }
+
+            /* For large devices (desktops, 1024px and up) */
+            @media only screen and (min-width: 1024px) {
+                body {
+                    font-size: 16px; /* Larger font size */
+                }
+
+                .container {
+                    padding: 15px; /* Increased padding */
+                }
+            }
+            
+            .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two images per row */
+    grid-gap: 15px; /* Symmetrical space between images */
+    row-gap: 15px;
+    padding: 15px;
+  }
+  .image-container {
+    border-color: #fcff00;
+    border-width: 10px;
+    border-style: ridge;
+    overflow: hidden; /* Ensures the border fits tightly around the image */
+    max-width: 500px; /* Adjust this value to make images smaller */
+    margin: auto; /* Center the container */
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block; /* Removes bottom space/margin under the image */
+    transition: transform 0.2s ease-in-out;
+  }
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+
+  #logo {
+                background-image: url('https://i.ibb.co/BLNhyqg/DALL-E-2024-02-01-17.png'); /* Adjust path as necessary */
+                background-repeat: no-repeat;
+                background-position: center; /* Adjust as necessary to position the icon */
+                background-size: contain; /* Adjust based on the size of your icon */
+                padding: 20px; /* Provides space for the background icon */
+                /* Keep your existing styles */
+                text-align: center; 
+                color: white; 
+                text-shadow: 4px 4px 2px #000000, 8px 8px 0px #ffffff, 12px 6px 0px #000000, 16px 8px 0px #ffffff; 
+                font-size: 120px;
+}
+</style>
+<link rel="stylesheet" href="/DfnZf0MBp0gWZZRH"/></head>
+<body>
+   <header>
+    <h1 id="logo" style="text-align: center; color: white; text-shadow: 
+    4px 4px 2px #000000, 
+    8px 8px 0px #ffffff, 
+    12px 6px 0px #000000, 
+    16px 8px 0px #ffffff; font-size: 120px;">
+        <a href="index.html" style="text-decoration: none; color: inherit;">dustbin</a>
+    </h1> 
+            <h2 style="color: orange; font-size: 27px;">
+                <a href="contact.html" style="color: orange;">Contact</a> | 
+                <a href="videos.html" style="color: yellow;">Videos</a> | 
+                <a href="images.html" style="color: orange;">Images</a> | 
+                <a href="music.html" style="color: yellow;">Music</a> | 
+                <a href="affiliated.html" style="color: orange;">Affiliated</a> |
+                <a href="about.html" style="color: yellow;">About</a>
+            </h2>  
+        </header>
+
+  <div class="gallery">
+    <div class="image-container">
+      <img src="https://i.ibb.co/7j4nJsX/file0.png" alt="Description of Image 1">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/WBwfrwL/file2.png" alt="Description of Image 2">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/JmmZ81x/file3.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/Tk4TpGp/file4.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/kBn0m2Z/file5.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/4pFBp5r/file6.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/5x26pNB/file7.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/Wn6R9xm/file8.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/PwF4h11/file9.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/Jk775GX/file10.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/cJwmnzv/file13.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/Wx76sNZ/file14.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/HY7jzKX/file19.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/Ssg13xq/file20.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/cKBgvQF/file25.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/T1rxRpJ/file27.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/sP3KH5z/file28.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/0QpS8H3/file30.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/z2MZLMG/file37.png" alt="Description of Image 3">
+    </div>
+    <div class="image-container">
+      <img src="https://i.ibb.co/Rp73WZQ/file39.png" alt="Description of Image 3">
+    </div>
+    <!-- Add more images in pairs -->
+  </div>
+  <footer class="text-center p-5">
+    © 2024 dustbin. All rights reserved.
+  </footer>
+</body>
+</html>

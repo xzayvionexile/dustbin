@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliated | dustbin</title>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/BLNhyqg/DALL-E-2024-02-01-17.png">
+    <style>
+       body {
+            background-image: linear-gradient(to bottom, #f2f2f2, #e6e6e6, #cccccc,  #ff9900, #e68a00, #cc7a00, #663d00);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            height: 100%;
+            margin: 0;
+        } 
+
+        h1 {
+            text-align: center;
+            color:#000000;
+            font-family: 'Alagard', serif, sans-serif;
+        }
+
+        h2 {
+            display: flex;
+            color: #000000;
+            text-shadow: 2px 2px 0px #000000; 
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        #logo {
+            background-image: url('https://i.ibb.co/BLNhyqg/DALL-E-2024-02-01-17.png'); /* Adjust path as necessary */
+            background-repeat: no-repeat;
+            background-position: center; /* Adjust as necessary to position the icon */
+            background-size: contain; /* Adjust based on the size of your icon */
+            padding: 20px; /* Provides space for the background icon */
+            /* Keep your existing styles */
+            text-align: center; 
+            color: white; 
+            text-shadow: 4px 4px 2px #000000, 8px 8px 0px #ffffff, 12px 6px 0px #000000, 16px 8px 0px #ffffff; 
+            font-size: 120px;
+            }
+
+        .plaques-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px 0;
+            margin: auto;
+            max-width: 1200px;
+        }
+
+        .plaque {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #000;
+            border: 10px ridge #b300b3; /* Adjusted to match the thick border style */
+            padding: 10px;
+            background-color: #fff;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .plaque:hover {
+            transform: scale(1.05);
+        }
+
+        .plaque img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .plaque p {
+            margin-top: 10px;
+            font-family: 'Alagard', serif, sans-serif;
+            color: #000000;
+            background-color: silver;
+        }
+
+        /* Responsive adjustments */
+        @media only screen and (max-width: 600px) {
+        .plaques-container {
+            flex-direction: column;
+            align-items: center;
+        }
+}
+
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="logo" style="text-align: center; color: white; text-shadow: 
+        4px 4px 2px #000000, 
+        8px 8px 0px #ffffff, 
+        12px 6px 0px #000000, 
+        16px 8px 0px #ffffff; font-size: 120px;">
+        <a href="index.html" style="text-decoration: none; color: inherit;">dustbin</a>
+        </h1> 
+        <h2 style="color: orange; font-size: 27px;">
+            <a href="contact.html" style="color: orange;">Contact</a> | 
+            <a href="videos.html" style="color: yellow;">Videos</a> | 
+            <a href="images.html" style="color: orange;">Images</a> | 
+            <a href="music.html" style="color: yellow;">Music</a> | 
+            <a href="affiliated.html" style="color: orange;">Affiliated</a> |
+            <a href="about.html" style="color: yellow;">About</a>
+        </h2>  
+    </header> 
+
+    <section class="plaques-container">
+        <!-- Repeat this block for each plaque -->
+        <a href="https://linktr.ee/4arsnova" class="plaque">
+            <img src="https://i.ibb.co/5scMw67/THUMBNAIL.png" alt="Person's Name" class="smooth-brown-border">
+            <p>Ars Nova</p>
+        </a>
+        <!-- Add more plaques as needed -->
+    </section>
+
+
+    <footer>
+        © 2024 dustbin. All rights reserved.
+    </footer>
+</body>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Welcome home.">
+        <title>My First Web Page also LOL</title>  
+        <link href="https://fonts.googleapis.com/css2?family=Alagard&display=swap" rel="stylesheet">
+        <style>
+            .thick-brown-border {
+                border-color: brown;
+                border-width: 10px;
+                border-style: ridge;
+            }
+
+            .smooth-brown-border {
+                border-color: brown;
+                border-width: 10px;
+                border-style: solid;
+                border-radius: 50%;
+            }
+            main {
+                flex: 1;
+            }
+
+            header {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            body {
+                background-image: linear-gradient(to bottom, #59476c, #d4d2c9, #acb2a5, #6c6747);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                height: 100%;
+                margin: 0;
+            }
+
+            p {
+                color:#000000;
+                font-family: 'Alagard', serif, sans-serif;
+                background-color: silver; 
+            }
+
+            h1 {
+                text-align: center;
+                color:#000000;
+                font-family: 'Alagard', serif, sans-serif;
+            }
+
+            h2 {
+                display: flex;
+                color: #000000;
+                font-family: 'Alagard', serif, sans-serif;
+                text-shadow: 2px 2px 0px #000000; 
+            }
+
+            section {
+                max-width: 600px;
+                margin: auto;
+                padding: 20px;
+            }
+
+            input, textarea {
+                width: 100%;
+                padding: 8px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 15px;
+                margin: 10px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+            
+        </style>
+    <link rel="stylesheet" href="/YeIBYYw2w_K2YH0i"/></head>
+    <!-- wassup code bitches. if you're reading this. just know I know.-->
+    <body>
+        <header>
+            <h1 style="text-align: center; color: white; text-shadow: 
+            2px 2px 0px #000000, 
+            4px 4px 0px #ffffff, 
+            6px 6px 0px #000000, 
+            8px 8px 0px #ffffff;">dustbin</h1> 
+            <h2>
+                <a href="contact.html">Contact</a> | 
+                <a href="videos.html">Videos</a> | 
+                <a href="images.html">Images</a> | 
+                <a href="music.html">Music</a> | 
+                <a href="affiliated.html">Affiliated</a>
+            </h2>  
+        </header>
+
+
+        <main>
+            <article>
+                    <h1 style="text-align: center;">have a look around and enjoy.</h1>
+            </article>
+            
+            <section>
+                <a href="https://www.tiktok.com/@kilsosouth2x/video/7174609515416014123?is_from_webapp=1&sender_device=pc&web_id=7169340852863764014">
+                    <img class="thick-brown-border" width="100" height="100" src="https://4.bp.blogspot.com/-MuBsZoWwTXY/WXrkSJ4GdmI/AAAAAAAADTQ/SFiEkSjHUco6bh9o0_tSudCoeqe_Azv3wCLcBGAs/s1600/Pretzels%2B2.jpg" alt="A pretzel" />
+                </a>
+                <a href="https://www.youtube.com/playlist?list=PLMIih0GGEVFwGvm4Nos5D87nx21QO0whn">
+                    <img class="thick-brown-border" width="100" height="100" src="https://cdn.apexminecrafthosting.com/img/uploads/2020/09/24221935/herobrine.jpg" alt="Herobrine" />
+                </a>
+            </section>
+
+            <article>
+                <pre>
+                    _._     _,-'""`-._                 
+                    (,-.`._,'(       |\`-/|
+                        `-.-' \ )-`( , o o)     
+                              `-    \`_`"'-  
+                </pre>
+            </article>
+        </main>
+        <article>
+            <section>
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+            
+                    <label for="message">Message:</label>
+                    <div>
+                        <textarea id="message" name="message" rows="10" cols="30" required placeholder="Your message here"></textarea>
+                    </div>
+            
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </article>
+        <footer class="text-center p-5">
+            © 2024 dustbin. All rights reserved.
+        </footer>
+        </body>
+
+</html>
+
+<script>
+    document.querySelector('form[name="contact"]').addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Add AJAX for form submission if desired
+        alert("Thank you for your message!");
+    });
+</script>

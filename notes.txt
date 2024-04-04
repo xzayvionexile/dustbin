@@ -1,0 +1,9 @@
+things to work on
+
+1. affiliated page
+2. dropdown affiliates hover
+3. add an about section
+4. fix the form submissions
+5. make site more interesting with css like idk anything interesting to you in the momemt.
+6. make images.html less heavy on the eyes
+7. fix the way. Images, Music, and Affiliated appear on the phone
